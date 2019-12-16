@@ -1,13 +1,19 @@
-# Terminal Setup
+# Setup
 
 ### Installing Stuff
-sudo apt-get install -y tmux zsh docker vim
+sudo apt-get install -y tmux zsh vim
 
 ### Change default shell to zsh  (requires reboot to take effekt)
 chsh -s $(which zsh)
 
-### [Docker Setup](https://docs.docker.com/install/linux/linux-postinstall/)
+### Terminal Style
+In /usr/share/zsh/functions/Prompts/prompt_adam1_setup add:
+if [ "$USER" == "user" ]; then
+  base_prompt="%KS%k "
+
+### [Docker Install](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/)
+### [Docker Post Install Setup](https://docs.docker.com/install/linux/linux-postinstall/)
 sudo groupadd docker
 sudo usermod -aG docker $USER
 
-### TODO: tmux and vim and vscode config
+### TODO: vim and vscode config
