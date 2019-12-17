@@ -1,5 +1,8 @@
 # Setup
 
+### During Ubuntu Installation
+Set Keyboard Layout to German **NO DEAD KEYS**, because otherwise ^ for tmux won't work.
+
 ### Installing Stuff
 sudo apt-get install -y tmux zsh vim
 
