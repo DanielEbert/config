@@ -17,7 +17,7 @@ if [ "$USER" == "user" ]; then
   base_prompt="%KS%k "
 
 Terminal > Preferences > Uncheck "Use colors from system theme"
-
+                       > Set Default Color to white #FFFFFF
 ### CTRL+ALT+T tmux
 Keyboard -> Shortcuts -> Custom Shortcuts
 Remove existing shortcut for normale terminal
@@ -35,3 +35,4 @@ cd ~ && rmdir Music Pictures Public Templates Videos
 Power > Blank Screen set to never
 
 ### TODO: vim and vscode config
+          Check what i have to install on VSCode (Host): Python extension, pylint, python?
