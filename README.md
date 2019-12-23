@@ -36,3 +36,9 @@ Power > Blank Screen set to never
 
 ### TODO: vim and vscode config
           Check what i have to install on VSCode (Host): Python extension, pylint, python?
+
+### If inside VM:
+
+Add Shared Folder: VirtualBox > Shared Folders > Add Shared Folder > Tick Auto-mount and Make Permanent
+Access shared Folder in VM without going into sudo, also requires reboot
+sudo adduser user vboxsf
