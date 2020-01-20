@@ -12,20 +12,20 @@ sudo apt-get install -y tmux zsh vim
 chsh -s $(which zsh)
 
 ### Terminal Style
-In /usr/share/zsh/functions/Prompts/prompt_adam1_setup add:
-if [ "$USER" == "user" ]; then
+In /usr/share/zsh/functions/Prompts/prompt_adam1_setup add:  
+if [ "$USER" == "user" ]; then  
   base_prompt="%KS%k "
 
-Terminal > Preferences > Uncheck "Use colors from system theme"
+Terminal > Preferences > Uncheck "Use colors from system theme"  
                        > Set Default Color to white #FFFFFF
 ### CTRL+ALT+T tmux
-Keyboard -> Shortcuts -> Custom Shortcuts
-Remove existing shortcut for normale terminal
+Keyboard -> Shortcuts -> Custom Shortcuts  
+Remove existing shortcut for normale terminal  
 New Shortcut, Name: tmux, Command: gnome-terminal -e "tmux new"
 
 ### [Docker Install](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/)
 ### [Docker Post Install Setup](https://docs.docker.com/install/linux/linux-postinstall/)
-sudo groupadd docker
+sudo groupadd docker  
 sudo usermod -aG docker $USER
 
 ### Remove useless Folders
@@ -34,11 +34,11 @@ cd ~ && rmdir Music Pictures Public Templates Videos
 ### Ubuntu Settings
 Power > Blank Screen set to never
 
-### TODO: vim and vscode config
+### TODO: vscode config
           Check what i have to install on VSCode (Host): Python extension, pylint, python?
 
 ### If inside VM:
 
-Add Shared Folder: VirtualBox > Shared Folders > Add Shared Folder > Tick Auto-mount and Make Permanent
-Access shared Folder in VM without going into sudo, also requires reboot
+Add Shared Folder: VirtualBox > Shared Folders > Add Shared Folder > Tick Auto-mount and Make Permanent  
+Access shared Folder in VM without going into sudo, also requires reboot  
 sudo adduser user vboxsf

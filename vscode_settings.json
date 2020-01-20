@@ -1,0 +1,24 @@
+// also dont forget to install all extensions
+
+{
+    "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+    "editor.fontFamily": "Hack, monospace",
+    "editor.fontSize": 18,
+    "editor.mouseWheelZoom": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#1A1A1A",
+        "statusBar.noFolderBackground" : "#212121",
+        "statusBar.debuggingBackground": "#263238"
+    },
+    "scm.diffDecorations": "none",
+    "workbench.tree.renderIndentGuides": "none",
+    "files.eol": "\n"
+    
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "python": "E:/ML/Anaconda3/python.exe -u",
+        "cpp": "clang++ -g -Wall -Wextra -pedantic -std=gnu++14 -O2 -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wcast-qual -Wcast-align -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 *.cpp -o Executable && ./Executable"
+    },
+}
