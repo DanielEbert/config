@@ -38,3 +38,7 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 alias l='ls --color'
 alias ll='ls -la --color'
+
+
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
