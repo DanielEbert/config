@@ -4,17 +4,16 @@
 Set Keyboard Layout to German **NO DEAD KEYS**, because otherwise ^ for tmux won't work.
 
 ### Installing Stuff
-sudo apt-get install -y tmux zsh vim
+sudo apt-get install -y tmux zsh vim curl
 
 ~Install Chrome
 
 ### Change default shell to zsh  (requires reboot to take effekt)
 chsh -s $(which zsh)
 
-### Terminal Style
-In /usr/share/zsh/functions/Prompts/prompt_adam1_setup add:  
-if [ "$USER" == "user" ]; then  
-  base_prompt="%KS%k "
+### Terminal
+[ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 Terminal > Preferences > Uncheck "Use colors from system theme"  
                        > Set Default Color to white #FFFFFF
