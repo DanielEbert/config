@@ -6,7 +6,7 @@ Set Keyboard Layout to German **NO DEAD KEYS**, because otherwise ^ for tmux won
 ### Installing Stuff
 sudo apt-get install -y tmux zsh vim curl
 
-~Install Chrome
+Install Chrome
 
 ### Change default shell to zsh  (requires reboot to take effekt)
 chsh -s $(which zsh)
