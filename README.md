@@ -19,7 +19,7 @@ Terminal > Preferences > Uncheck "Use colors from system theme"
                        > Set Default Color to white #FFFFFF
 ### CTRL+ALT+T tmux
 Keyboard -> Shortcuts -> Custom Shortcuts  
-Remove existing shortcut for normale terminal  
+Remove existing shortcut for default terminal  
 New Shortcut, Name: tmux, Command: gnome-terminal -e "tmux new"
 
 ### [Docker Install](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/)
