@@ -13,7 +13,15 @@
     },
     "scm.diffDecorations": "none",
     "workbench.tree.renderIndentGuides": "none",
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "editor.rulers": [80],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.vscode": true,
+        "**/*.pyc": true
+    },
+    "files.autoSaveDelay": 4000,
     
     "code-runner.clearPreviousOutput": true,
     "code-runner.runInTerminal": true,
