@@ -6,7 +6,7 @@ Set Keyboard Layout to German **NO DEAD KEYS**, because otherwise ^ for tmux won
 ### Installing Stuff
 sudo apt-get install -y tmux zsh vim curl
 
-~Install Chrome
+Install Chrome
 
 ### Change default shell to zsh  (requires reboot to take effekt)
 chsh -s $(which zsh)
@@ -19,7 +19,7 @@ Terminal > Preferences > Uncheck "Use colors from system theme"
                        > Set Default Color to white #FFFFFF
 ### CTRL+ALT+T tmux
 Keyboard -> Shortcuts -> Custom Shortcuts  
-Remove existing shortcut for normale terminal  
+Remove existing shortcut for default terminal  
 New Shortcut, Name: tmux, Command: gnome-terminal -e "tmux new"
 
 ### [Docker Install](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/)
