@@ -101,3 +101,9 @@ source $ZSH/oh-my-zsh.sh
 alias l='ls --color'
 alias ll='ls -la --color'
 alias ..l="cd ../ && ll"
+
+export PATH=$PATH:~/Scripts
+
+# AWS completion
+autoload bashcompinit && bashcompinit
+complete -C '/usr/local/bin/aws_completer' aws
