@@ -41,3 +41,6 @@ Power > Blank Screen set to never
 Add Shared Folder: VirtualBox > Shared Folders > Add Shared Folder > Tick Auto-mount and Make Permanent  
 Access shared Folder in VM without going into sudo, also requires reboot  
 sudo adduser user vboxsf
+
+If mouse feels sluggish/laggy and using VirtualBox:  
+VirtualBox Settings -> Display -> *Disable* 3D Acceleration  
