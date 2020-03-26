@@ -42,6 +42,9 @@ Add Shared Folder: VirtualBox > Shared Folders > Add Shared Folder > Tick Auto-m
 Access shared Folder in VM without going into sudo, also requires reboot  
 sudo adduser user vboxsf
 
+If mouse feels sluggish/laggy and using VirtualBox:  
+VirtualBox Settings -> Display -> *Disable* 3D Acceleration  
+
 ### Ubuntu Tweaks
 #### Fonts
 Interface Text: [Helvetica Normal](https://www.fontmirror.com/helvetica)  
@@ -49,3 +52,5 @@ Monospace Text: [Hack Regular](https://sourcefoundry.org/hack/)
 
 ### Env
 PATH: Add /home/user/Scripts
+
+
