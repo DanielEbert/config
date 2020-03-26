@@ -41,3 +41,11 @@ Power > Blank Screen set to never
 Add Shared Folder: VirtualBox > Shared Folders > Add Shared Folder > Tick Auto-mount and Make Permanent  
 Access shared Folder in VM without going into sudo, also requires reboot  
 sudo adduser user vboxsf
+
+### Ubuntu Tweaks
+#### Fonts
+Interface Text: [Helvetica Normal](https://www.fontmirror.com/helvetica)  
+Monospace Text: [Hack Regular](https://sourcefoundry.org/hack/)
+
+### Env
+PATH: Add /home/user/Scripts
