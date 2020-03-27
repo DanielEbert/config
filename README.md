@@ -1,7 +1,7 @@
 # Setup
 
 ### Windows US no dead keys Layout
-With Microsoft's Keyboard Layout Creator (MKLC) use us_international_no_dead_keys.klc  
+With Microsoft's Keyboard Layout Creator (MKLC) install us_international_no_dead_keys.klc  
 In Windows goto Settings -> Language -> Install US English -> Click on English -> Options -> Add new keyboard & remove old keyboard
 
 ### During Ubuntu Installation
