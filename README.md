@@ -1,5 +1,9 @@
 # Setup
 
+### Windows US no dead keys Layout
+With Microsoft's Keyboard Layout Creator (MKLC) use us_international_no_dead_keys.klc  
+In Windows goto Settings -> Language -> Install US English -> Click on English -> Options -> Add new keyboard & remove old keyboard
+
 ### During Ubuntu Installation
 Set Keyboard Layout to German **NO DEAD KEYS**, because otherwise ^ for tmux won't work.
 
