@@ -5,7 +5,7 @@ With Microsoft's Keyboard Layout Creator (MKLC) install us_international_no_dead
 In Windows goto Settings -> Language -> Install US English -> Click on English -> Options -> Add new keyboard & remove old keyboard -> sign out & back in
 
 ### During Ubuntu Installation
-Set Keyboard Layout to German **NO DEAD KEYS**, because otherwise ^ for tmux won't work.
+US Keyboard (which means we have no äöü keys)
 
 ### Installing Stuff
 sudo apt-get install -y tmux zsh vim curl
