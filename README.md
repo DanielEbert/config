@@ -21,6 +21,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 Terminal > Preferences > Uncheck "Use colors from system theme"  
                        > Set Default Color to white #FFFFFF
+                       
+Disable Git Status in Terminal: git config --global oh-my-zsh.hide-status 1
+ 
 ### CTRL+ALT+T tmux
 Keyboard -> Shortcuts -> Custom Shortcuts  
 Remove existing shortcut for default terminal  
