@@ -1,7 +1,11 @@
 # Setup
 
+### Windows US no dead keys Layout
+With Microsoft's Keyboard Layout Creator (MKLC) install us_international_no_dead_keys.klc  (modified from [here](https://github.com/umanovskis/win-kbd-usint-nodead/))  
+In Windows goto Settings -> Language -> Install US English -> Click on English -> Options -> Add new keyboard & remove old keyboard -> sign out & back in
+
 ### During Ubuntu Installation
-Set Keyboard Layout to German **NO DEAD KEYS**, because otherwise ^ for tmux won't work.
+US Keyboard (which means we have no äöü keys)
 
 ### Installing Stuff
 sudo apt-get install -y tmux zsh vim curl
@@ -19,7 +23,9 @@ Terminal > Preferences > Uncheck "Use colors from system theme"
                        > Set Default Color to white #FFFFFF  
                        > Set Background Color to #2A2F30  
                        > Under Palette > Set upper row to lower row and lower brightness of lower row
-
+                       
+Disable Git Status in Terminal: git config --global oh-my-zsh.hide-status 1
+ 
 ### CTRL+ALT+T tmux
 Keyboard -> Shortcuts -> Custom Shortcuts  
 Remove existing shortcut for default terminal  
