@@ -9,4 +9,4 @@ set ruler
 highlight Comment ctermfg=green
 set timeoutlen=1000 ttimeoutlen=0
 set mouse=a
-set smartcase
+set ignorecase
