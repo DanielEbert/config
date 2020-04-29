@@ -1,0 +1,4 @@
+[oh-my-zsh]
+        hide-status = 1
+[pager]
+        status = true
