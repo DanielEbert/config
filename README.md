@@ -23,9 +23,7 @@ Terminal > Preferences > Uncheck "Use colors from system theme"
                        > Set Default Color to white #FFFFFF  
                        > Set Background Color to #2A2F30  
                        > Under Palette > Set upper row to lower row and lower brightness of lower row
-                       
-Disable Git Status in Terminal: git config --global oh-my-zsh.hide-status 1
- 
+                        
 ### CTRL+ALT+T tmux
 Keyboard -> Shortcuts -> Custom Shortcuts  
 Remove existing shortcut for default terminal  
