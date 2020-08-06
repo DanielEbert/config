@@ -107,3 +107,9 @@ export PATH=$PATH:~/Scripts
 # AWS completion
 autoload bashcompinit && bashcompinit
 complete -C '/usr/local/bin/aws_completer' aws
+
+
+function notes () { /home/user/notes/notes.py $* }
+alias n='noglob notes'
+
+source $HOME/.cargo/env

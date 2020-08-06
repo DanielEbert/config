@@ -60,4 +60,9 @@ Monospace Text: [Hack Regular](https://sourcefoundry.org/hack/)
 ### Env
 PATH: Add /home/user/Scripts
 
+### Vim Plugins
+[vim-pathogen](https://github.com/tpope/vim-pathogen)  
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \  
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim  
 
+[rust-vim-setup](https://github.com/ivanceras/rust-vim-setup)
