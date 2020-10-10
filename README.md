@@ -8,7 +8,7 @@ In Windows goto Settings -> Language -> Install US English -> Click on English -
 US Keyboard (which means we have no äöü keys)
 
 ### Installing Stuff
-sudo apt-get install -y tmux zsh vim curl htop
+sudo apt-get install -y git tmux zsh vim curl htop
 
 Install Chrome
 
