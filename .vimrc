@@ -18,3 +18,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:ycm_rust_src_path="/home/user/P/rust-master/src/"
 nmap <F5> :NERDTreeToggle<CR>
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
