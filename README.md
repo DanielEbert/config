@@ -17,7 +17,8 @@ chsh -s $(which zsh)
 
 ### Terminal
 [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  
+Open /home/user/.oh-my-zsh/themes/robbyrussell.zsh-theme and remove '$(git\_prompt\_info)' from 'PROMPT+='
 
 Terminal > Preferences > Uncheck "Use colors from system theme"  
                        > Set Default Color to white #FFFFFF  
