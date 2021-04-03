@@ -42,7 +42,7 @@ cd ~ && rmdir Music Pictures Public Templates Videos
 Power > Blank Screen set to never
 
 ### TODO: vscode config
-          Check what i have to install on VSCode (Host): Python extension, pylint, python?
+          Check what i have to install on VSCode (Host): Vim, Python extension, pylint, python?
 
 ### If inside VM:
 
