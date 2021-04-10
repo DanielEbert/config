@@ -48,6 +48,6 @@
     "editor.tabSize": 2,
     "python.formatting.autopep8Args": [
         "--ignore",
-        "E101,E11",
+        "E101,E11,E302",
     ]
 }
