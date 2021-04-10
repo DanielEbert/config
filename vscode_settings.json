@@ -31,4 +31,22 @@
         "cpp": "clang++ -g -Wall -Wextra -pedantic -std=gnu++14 -O2 -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wcast-qual -Wcast-align -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 *.cpp -o Executable && ./Executable"
     },
     "editor.matchBrackets": "never",
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E111,E114"
+    ],
+    "editor.tabSize": 2,
+    "python.formatting.autopep8Args": [
+        "--ignore E121"
+    ]
 }
