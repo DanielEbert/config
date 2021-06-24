@@ -104,12 +104,7 @@ alias ..l="cd ../ && ll"
 
 export PATH=$PATH:~/Scripts
 
-# AWS completion
-autoload bashcompinit && bashcompinit
-complete -C '/usr/local/bin/aws_completer' aws
-
-
-function notes () { /home/user/notes/notes.py $* }
+function notes () { /home/user/P/terminal_notes/notes.py $* }
 alias n='noglob notes'
 
-source $HOME/.cargo/env
+alias emu='/home/user/EFF/simavr/simavr/run_avr -m atmega2560 --mutator_so_path /home/user/EFF/simavr/simavr/mutators/libfuzzer/libfuzzer-mutator.so'
