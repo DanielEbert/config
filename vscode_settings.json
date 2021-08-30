@@ -49,5 +49,6 @@
     "python.formatting.autopep8Args": [
         "--ignore",
         "E101,E11",
-    ]
+    ],
+    "rewrap.autoWrap.enabled": true
 }
