@@ -68,7 +68,7 @@ HIST_STAMPS="dd/mm/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(web-search)
+plugins=(web-search zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,3 +108,6 @@ function notes () { /home/user/P/terminal_notes/notes.py $* }
 alias n='noglob notes'
 
 alias emu='/home/user/EFF/simavr/simavr/run_avr -m atmega2560 --mutator_so_path /home/user/EFF/simavr/simavr/mutators/libfuzzer/libfuzzer-mutator.so'
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
