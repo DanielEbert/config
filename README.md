@@ -24,7 +24,8 @@ Open /home/user/.oh-my-zsh/themes/robbyrussell.zsh-theme and remove '$(git\_prom
 Terminal > Preferences > Uncheck "Use colors from system theme"  
                        > Set Default Color to white #FFFFFF  
                        > Set Background Color to #2A2F30  
-                       > Under Palette > Set upper row to lower row and lower brightness of lower row
+                       > Under Palette > Set upper row to: #555753 | #EF2929 | #8AE234 | #FCE94F | #729FCF | #AD7FA8 | #34E2E2 | #EEEEEC 
+                       > and lower row to: #7E817B | #EC4B4B | #A8E46D | #F9ED89 | #91B1D3 | #C299BD | #5DE2E2 | #F6F6F6
                         
 ### CTRL+ALT+T tmux
 Keyboard -> Shortcuts -> Custom Shortcuts  
