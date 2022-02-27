@@ -69,3 +69,7 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim  
 
 [rust-vim-setup](https://github.com/ivanceras/rust-vim-setup)
+
+~~~
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+~~~
