@@ -50,5 +50,7 @@
         "--ignore",
         "E101,E11",
     ],
-    "rewrap.autoWrap.enabled": true
+    "rewrap.autoWrap.enabled": true,
+    "editor.formatOnSave": true,
+    "clang-format.style": "{ BasedOnStyle: Microsoft, ReferenceAlignment: Left, PointerAlignment: Left}",
 }
