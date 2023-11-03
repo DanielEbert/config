@@ -56,6 +56,9 @@ If mouse feels sluggish/laggy and using VirtualBox:
 VirtualBox Settings -> Display -> *Disable* 3D Acceleration  
 
 ### Ubuntu Tweaks
+
+sudo apt-get install gnome-tweaks 
+
 #### Fonts
 Interface Text: [Helvetica Normal](https://www.fontmirror.com/helvetica)  
 Monospace Text: [Hack Regular](https://sourcefoundry.org/hack/)
