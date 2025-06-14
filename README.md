@@ -66,12 +66,9 @@ Monospace Text: [Hack Regular](https://sourcefoundry.org/hack/)
 ### Env
 PATH: Add /home/user/Scripts
 
-### Vim Plugins
-[vim-pathogen](https://github.com/tpope/vim-pathogen)  
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \  
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim  
+### On private pc
 
-[rust-vim-setup](https://github.com/ivanceras/rust-vim-setup)
+echo 'user ALL=(ALL) NOPASSWD: ALL' | sudo tee /etc/sudoers.d/user > /dev/null && sudo chmod 0440 /etc/sudoers.d/user
 
 ~~~
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
