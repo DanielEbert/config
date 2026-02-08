@@ -73,3 +73,34 @@ echo 'user ALL=(ALL) NOPASSWD: ALL' | sudo tee /etc/sudoers.d/user > /dev/null &
 ~~~
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ~~~
+
+### Ghostty config
+
+```
+# Background and Foreground
+background = #2A2F30
+foreground = #FFFFFF
+
+# Palette: Upper Row (Standard Colors 0-7)
+palette = 0=#555753
+palette = 1=#EF2929
+palette = 2=#8AE234
+palette = 3=#FCE94F
+palette = 4=#729FCF
+palette = 5=#AD7FA8
+palette = 6=#34E2E2
+palette = 7=#EEEEEC
+
+# Palette: Lower Row (Bright Colors 8-15)
+palette = 8=#7E817B
+palette = 9=#EC4B4B
+palette = 10=#A8E46D
+palette = 11=#F9ED89
+palette = 12=#91B1D3
+palette = 13=#C299BD
+palette = 14=#5DE2E2
+palette = 15=#F6F6F6
+```
+
+and go top left -> Ghostty -> Reload Configuration
+Also remap assigned keys to right command + I
